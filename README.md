@@ -1,3 +1,5 @@
+unzip PAN_INDIA_res9_HEX_LEVEL_AAC.zip -d .
+pip install pandas h3 scikit-learn
 import glob, os, pandas as pd, numpy as np, h3
 from sklearn.neighbors import BallTree
 
